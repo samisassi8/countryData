@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { createPortal } from "react-dom";
 import ModalContent from "./ModalContent";
+
 export default function ListCard({ country }) {
   const [showModal, setShowModal] = useState(false);
 

@@ -8,7 +8,7 @@ function App() {
     fetch("https://restcountries.com/v3.1/region/europe")
       .then((data) => data.json())
       .then((data) => {
-        console.log(data);
+        // console.log(data);
         data.sort((a, b) => {
           if (a.name.common < b.name.common) {
             return -1;
