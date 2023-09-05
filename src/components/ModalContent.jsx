@@ -8,7 +8,7 @@ export default function ModalContent({ country, closeModal }) {
       <div
         // pour eviter la propagation de la fonction closeModal sur les enfants, il faut stopper la propagation
         onClick={(e) => e.stopPropagation()}
-        className="min-w-[500px] relative rounded p-7 bg-gray-50"
+        className="w-full md:w-[80%] lg:w-[70%] xl:w-[60%] 2xl:w-[50%] relative rounded p-7 bg-gray-50"
       >
         <button
           onClick={closeModal}
